@@ -1,0 +1,14 @@
+{
+  "name": "design-tokens",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "style-dictionary build"
+  },
+  "author": "",
+  "license": "MIT License",
+  "devDependencies": {
+    "style-dictionary": "^3.9.2"
+  }
+}
