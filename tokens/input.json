@@ -12,6 +12,10 @@
       "md": {
         "value": "1024px",
         "type": "dimension"
+      },
+      "lg": {
+        "value": "1200px",
+        "type": "dimension"
       }
     },
     "color": {
