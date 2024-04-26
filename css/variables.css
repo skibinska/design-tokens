@@ -1,0 +1,19 @@
+/**
+ * Do not edit directly
+ * Generated on Fri, 26 Apr 2024 15:48:39 GMT
+ */
+
+:root {
+  --global-breakpoint-xs: 512px;
+  --global-breakpoint-sm: 768px;
+  --global-breakpoint-md: 1024px;
+  --global-color-red-10: #f9cdca;
+  --global-color-red-20: #ed858e;
+  --global-color-red-05: #fff0f2;
+  --global-color-black: #000000;
+  --global-color-white: #ffffff;
+  --global-space-static-xxs: 4;
+  --global-space-static-xs: 8;
+  --global-space-static-sm: 16;
+  --global-space-static-md: 32;
+}
