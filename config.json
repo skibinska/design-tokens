@@ -18,6 +18,14 @@
         "destination": "scss/variables.scss",
         "format": "scss/variables"
       }]
+    },
+    "js": {
+      "transformGroup": "js",
+      "buildPath": "generatedTokens/",
+      "files": [{
+        "destination": "js/variables.js",
+        "format": "javascript/es6"
+      }]
     }
   }
 }
