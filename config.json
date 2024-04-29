@@ -1,5 +1,7 @@
 {
-  "source": ["tokens/**/*.json"],
+  "source": [
+    "tokens/**/*.json"
+  ],
   "platforms": {
     "css": {
       "transformGroup": "css",
@@ -11,27 +13,34 @@
           "options": {
             "outputReferences": true
           }
+        },
+        {
+          "destination": "scss/variables.scss",
+          "format": "scss/variables",
+          "options": {
+            "outputReferences": true
+          }
         }
       ]
-    },
-    "scss": {
-      "transformGroup": "scss",
-      "buildPath": "generatedTokens/",
-      "files": [{
-        "destination": "scss/variables.scss",
-        "format": "scss/variables",
-        "options": {
-          "outputReferences": true
-        }
-      }]
     },
     "js": {
       "transformGroup": "js",
       "buildPath": "generatedTokens/",
-      "files": [{
-        "destination": "js/variables.js",
-        "format": "javascript/es6"
-      }]
+      "files": [
+        {
+          "destination": "js/variables.js",
+          "format": "javascript/es6"
+        }
+      ]
+    },
+    "json": {
+      "buildPath": "generatedTokens/",
+      "files": [
+        {
+          "destination": "tokens.json",
+          "format": "json/nested"
+        }
+      ]
     }
   }
 }
