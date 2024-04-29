@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 29 Apr 2024 09:58:28 GMT
+ * Generated on Mon, 29 Apr 2024 10:16:04 GMT
  */
 
 :root {
@@ -8,6 +8,7 @@
   --breakpoint-sm: 768px;
   --breakpoint-md: 1024px;
   --breakpoint-lg: 1200px;
+  --breakpoint-xl: 1344px;
   --color-red-10: #f9cdca;
   --color-red-20: #ed858e;
   --color-red-05: #fff0f2;
