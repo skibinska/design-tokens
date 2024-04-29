@@ -3,12 +3,21 @@
   "platforms": {
     "css": {
       "transformGroup": "css",
+      "buildPath": "generatedTokens/",
       "files": [
         {
           "destination": "css/variables.css",
           "format": "css/variables"
         }
       ]
+    },
+    "scss": {
+      "transformGroup": "scss",
+      "buildPath": "generatedTokens/",
+      "files": [{
+        "destination": "scss/variables.scss",
+        "format": "scss/variables"
+      }]
     }
   }
 }
