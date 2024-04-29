@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 29 Apr 2024 09:56:29 GMT
+ * Generated on Mon, 29 Apr 2024 09:58:28 GMT
  */
 
 export const BreakpointXs = "512px";
