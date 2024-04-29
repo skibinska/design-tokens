@@ -1,19 +1,19 @@
 {
   "space-static": {
     "xxs": {
-      "value": 4,
+      "value": "4px",
       "type": "spacing"
     },
     "xs": {
-      "value": 8,
+      "value": "8px",
       "type": "spacing"
     },
     "sm": {
-      "value": 16,
+      "value": "16px",
       "type": "spacing"
     },
     "md": {
-      "value": 32,
+      "value": "32px",
       "type": "spacing"
     }
   }

@@ -7,7 +7,10 @@
       "files": [
         {
           "destination": "css/variables.css",
-          "format": "css/variables"
+          "format": "css/variables",
+          "options": {
+            "outputReferences": true
+          }
         }
       ]
     },
@@ -16,7 +19,10 @@
       "buildPath": "generatedTokens/",
       "files": [{
         "destination": "scss/variables.scss",
-        "format": "scss/variables"
+        "format": "scss/variables",
+        "options": {
+          "outputReferences": true
+        }
       }]
     },
     "js": {

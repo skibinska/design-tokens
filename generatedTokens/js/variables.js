@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 29 Apr 2024 10:17:01 GMT
+ * Generated on Mon, 29 Apr 2024 14:27:44 GMT
  */
 
 export const BreakpointXs = "512px";
@@ -13,7 +13,8 @@ export const ColorRed20 = "#ed858e";
 export const ColorRed05 = "#fff0f2";
 export const ColorBlack = "#000000";
 export const ColorWhite = "#ffffff";
-export const SpaceStaticXxs = 4;
-export const SpaceStaticXs = 8;
-export const SpaceStaticSm = 16;
-export const SpaceStaticMd = 32;
+export const SpaceStaticXxs = "4px";
+export const SpaceStaticXs = "8px";
+export const SpaceStaticSm = "16px";
+export const SpaceStaticMd = "32px";
+export const SpaceResponsiveXxs = "4px";
