@@ -1,20 +1,20 @@
 /**
  * Do not edit directly
- * Generated on Fri, 26 Apr 2024 16:25:09 GMT
+ * Generated on Mon, 29 Apr 2024 09:22:08 GMT
  */
 
 :root {
-  --global-breakpoint-xs: 512px;
-  --global-breakpoint-sm: 768px;
-  --global-breakpoint-md: 1024px;
-  --global-breakpoint-lg: 1200px;
-  --global-color-red-10: #f9cdca;
-  --global-color-red-20: #ed858e;
-  --global-color-red-05: #fff0f2;
-  --global-color-black: #000000;
-  --global-color-white: #ffffff;
-  --global-space-static-xxs: 4;
-  --global-space-static-xs: 8;
-  --global-space-static-sm: 16;
-  --global-space-static-md: 32;
+  --breakpoint-xs: 512px;
+  --breakpoint-sm: 768px;
+  --breakpoint-md: 1024px;
+  --breakpoint-lg: 1200px;
+  --color-red-10: #f9cdca;
+  --color-red-20: #ed858e;
+  --color-red-05: #fff0f2;
+  --color-black: #000000;
+  --color-white: #ffffff;
+  --space-static-xxs: 4;
+  --space-static-xs: 8;
+  --space-static-sm: 16;
+  --space-static-md: 32;
 }
