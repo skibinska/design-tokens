@@ -1,7 +1,7 @@
 {
   "space-responsive" : {
     "xxs": {
-      "value": "{space-static.xxs.value}",
+      "value": "{space.050.value}",
       "type": "spacing"
     }
   }

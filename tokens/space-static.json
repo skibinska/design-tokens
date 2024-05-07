@@ -1,18 +1,22 @@
 {
-  "space-static": {
-    "xxs": {
+  "space": {
+    "0": {
+      "value": "0",
+      "type": "spacing"
+    },
+    "050": {
       "value": "4px",
       "type": "spacing"
     },
-    "xs": {
+    "100": {
       "value": "8px",
       "type": "spacing"
     },
-    "sm": {
+    "200": {
       "value": "16px",
       "type": "spacing"
     },
-    "md": {
+    "400": {
       "value": "32px",
       "type": "spacing"
     }
