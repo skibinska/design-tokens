@@ -7,6 +7,9 @@
       "transformGroup": "tokens-studio",
       "transforms": ["name/kebab", "custom/rem"],
       "buildPath": "generatedTokens/",
+      "options": {
+        "fileHeader": "customFileHeader"
+      },
       "files": [
         {
           "destination": "css/variables.css",
@@ -22,6 +25,9 @@
       "transformGroup": "tokens-studio",
       "transforms": ["name/pascal", "custom/rem"],
       "buildPath": "generatedTokens/",
+      "options": {
+        "fileHeader": "customFileHeader"
+      },
       "files": [
         {
           "destination": "js/variables.js",

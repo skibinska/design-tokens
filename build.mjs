@@ -7,6 +7,16 @@ registerTransforms(StyleDictionary);
 
 const sd = new StyleDictionary('config.json');
 
+sd.registerFileHeader({
+    name: `customFileHeader`,
+    fileHeader: () => {
+        return [
+            `Wellcome Design System`,
+            `Do not edit directly`
+        ]
+    }
+});
+
 sd.registerTransform({
     name: 'custom/rem',
     type: 'value',
