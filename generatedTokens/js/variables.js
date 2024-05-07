@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 30 Apr 2024 08:22:47 GMT
+ * Generated on Tue, 07 May 2024 10:37:58 GMT
  */
 
 export const BreakpointXs = "512px";
@@ -10,9 +10,51 @@ export const BreakpointLg = "1200px";
 export const BreakpointXl = "1344px";
 export const ColorRed10 = "#f9cdca";
 export const ColorRed20 = "#ed858e";
+export const ColorRed100 = "#fff5f5";
+export const ColorRed200 = "#fed7d7";
+export const ColorRed300 = "#feb2b2";
+export const ColorRed400 = "#fc8181";
 export const ColorRed05 = "#fff0f2";
 export const ColorBlack = "#000000";
 export const ColorWhite = "#ffffff";
+export const BorderRadiusSm = 4;
+export const BorderRadiusLg = 8;
+export const BorderRadiusXl = 16;
+export const BorderRadiusMultiValue = "4 8";
+export const OpacityLow = "10%";
+export const OpacityMd = "50%";
+export const OpacityHigh = "90%";
+export const FontFamilyHeading = "Inter";
+export const FontFamilyBody = "Roboto";
+export const LineHeightHeading = 1.6;
+export const LineHeightBody = 1.6;
+export const LetterSpacingDefault = 0;
+export const LetterSpacingIncreased = "150%";
+export const LetterSpacingDecreased = "-5%";
+export const ParagraphSpacingH1 = 32;
+export const ParagraphSpacingH2 = 26;
+export const FontWeightHeadingRegular = "Regular";
+export const FontWeightHeadingBold = "Bold";
+export const FontWeightBodyRegular = "Regular";
+export const FontWeightBodyBold = "Bold";
+export const FontSizeH1 = 48.829;
+export const FontSizeH2 = 39.063;
+export const FontSizeH3 = 31.25;
+export const FontSizeH4 = 25;
+export const FontSizeH5 = 20;
+export const FontSizeH6 = 16;
+export const FontSizeBody = 16;
+export const FontSizeSm = 13.6;
+export const FontSizeXs = 10.4;
+export const Space0 = 0;
+export const Space100 = 8;
+export const Space200 = 16;
+export const Space400 = 32;
+export const Space050 = 4;
+export const TokenSetOrder0 = "core";
+export const TokenSetOrder1 = "light";
+export const TokenSetOrder2 = "dark";
+export const TokenSetOrder3 = "theme";
 export const SpaceResponsiveXxs = "4px";
 export const SpaceStaticXxs = "4px";
 export const SpaceStaticXs = "8px";
