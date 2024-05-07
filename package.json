@@ -1,14 +1,17 @@
 {
   "name": "design-tokens",
-  "version": "1.0.0",
-  "description": "",
-  "main": "",
+  "version": "0.0.1",
+  "description": "Implementation of Tokens Studio using Style Dictionary",
+  "main": "build.mjs",
+  "type": "module",
   "scripts": {
-    "build": "style-dictionary build --config config.json"
+    "build": "node ./build.mjs"
   },
   "author": "",
   "license": "MIT License",
   "devDependencies": {
-    "style-dictionary": "^3.9.2"
+    "@divriots/style-dictionary-to-figma": "^0.4.0",
+    "@tokens-studio/sd-transforms": "^0.15.2",
+    "style-dictionary": "^4.0.0-prerelease.26"
   }
 }

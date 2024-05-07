@@ -4,27 +4,23 @@
   ],
   "platforms": {
     "css": {
-      "transformGroup": "css",
+      "transformGroup": "tokens-studio",
+      "transforms": ["name/kebab", "custom/rem"],
       "buildPath": "generatedTokens/",
       "files": [
         {
           "destination": "css/variables.css",
-          "format": "css/variables",
-          "options": {
-            "outputReferences": true
-          }
+          "format": "css/variables"
         },
         {
           "destination": "scss/variables.scss",
-          "format": "scss/variables",
-          "options": {
-            "outputReferences": true
-          }
+          "format": "scss/variables"
         }
       ]
     },
     "js": {
-      "transformGroup": "js",
+      "transformGroup": "tokens-studio",
+      "transforms": ["name/pascal", "custom/rem"],
       "buildPath": "generatedTokens/",
       "files": [
         {
@@ -34,6 +30,7 @@
       ]
     },
     "json": {
+      "transformGroup": "tokens-studio",
       "buildPath": "generatedTokens/",
       "files": [
         {

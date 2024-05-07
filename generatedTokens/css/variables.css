@@ -1,22 +1,40 @@
 /**
  * Do not edit directly
- * Generated on Tue, 30 Apr 2024 08:22:46 GMT
+ * Generated on Tue, 07 May 2024 09:23:24 GMT
  */
 
 :root {
-  --space-static-md: 32px;
-  --space-static-sm: 16px;
-  --space-static-xs: 8px;
-  --space-static-xxs: 4px;
-  --color-white: #ffffff;
-  --color-black: #000000;
-  --color-red-05: #fff0f2;
-  --color-red-20: #ed858e;
-  --color-red-10: #f9cdca;
-  --breakpoint-xl: 1344px;
-  --breakpoint-lg: 1200px;
-  --breakpoint-md: 1024px;
-  --breakpoint-sm: 768px;
+  --border-radius-sm: 0.25rem;
+  --border-radius-lg: 0.5rem;
+  --border-radius-xl: 1rem;
+  --border-radius-multi-value: 0.25rem 0.5rem; /* You can have multiple values in a single radius token. Read more on these: https://docs.tokens.studio/available-tokens/border-radius-tokens#single--multiple-values */
   --breakpoint-xs: 512px;
-  --space-responsive-xxs: var(--space-static-xxs);
+  --breakpoint-sm: 768px;
+  --breakpoint-md: 1024px;
+  --breakpoint-lg: 1200px;
+  --breakpoint-xl: 1344px;
+  --color-red-10: #f9cdca;
+  --color-red-20: #ed858e;
+  --color-red-05: #fff0f2;
+  --color-black: #000000;
+  --color-white: #ffffff;
+  --font-size-h1: 3.053rem;
+  --font-size-h2: 2.442rem;
+  --font-size-h3: 1.954rem;
+  --font-size-h4: 1.563rem;
+  --font-size-h5: 1.25rem;
+  --font-size-h6: 1rem;
+  --font-size-body: 1rem;
+  --font-size-body-sm: 0.85rem;
+  --font-size-body-xs: 0.65rem;
+  --font-weight-heading-regular: 400;
+  --font-weight-heading-bold: 700;
+  --font-weight-body-regular: 400;
+  --font-weight-body-bold: 700;
+  --space-responsive-xxs: 0.25rem;
+  --space-0: 0;
+  --space-100: 0.5rem;
+  --space-200: 1rem;
+  --space-400: 2rem;
+  --space-050: 0.25rem;
 }
