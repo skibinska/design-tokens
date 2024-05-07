@@ -31,3 +31,6 @@ Once Style Dictionary is installed, we can begin the process of transforming our
 3. Generate the code for your desired platform.
 
 [Transforming design tokens using Style Dictionary](https://docs.tokens.studio/transforming/style-dictionary)
+
+## Figma example
+[Figma example used for this repo](https://www.figma.com/file/6vTgVlm4anJykhhWZK882S/Ewelina's-team-library?type=design&mode=design&t=Htpjk10udp2W5OO5-0)
