@@ -27,6 +27,12 @@
       "value": "#ffffff",
       "type": "color"
     },
+    "grey": {
+      "05": {
+        "value": "#f2f2f2",
+        "type": "color"
+      }
+    },
     "red": {
       "100": {
         "value": "#fff5f5",
