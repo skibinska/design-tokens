@@ -9,6 +9,7 @@ export const BorderRadiusXl = "1rem";
 export const BorderRadiusMultiValue = "0.25rem"; // You can have multiple values in a single radius token. Read more on these: https://docs.tokens.studio/available-tokens/border-radius-tokens#single--multiple-values
 export const ColorBlack = "#000000";
 export const ColorWhite = "#ffffff";
+export const ColorGrey05 = "#f2f2f2";
 export const ColorRed100 = "#fff5f5";
 export const ColorRed200 = "#fed7d7";
 export const ColorRed300 = "#feb2b2";

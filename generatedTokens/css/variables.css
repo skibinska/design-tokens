@@ -10,6 +10,7 @@
   --border-radius-multi-value: 0.25rem; /* You can have multiple values in a single radius token. Read more on these: https://docs.tokens.studio/available-tokens/border-radius-tokens#single--multiple-values */
   --color-black: #000000;
   --color-white: #ffffff;
+  --color-grey-05: #f2f2f2;
   --color-red-100: #fff5f5;
   --color-red-200: #fed7d7;
   --color-red-300: #feb2b2;
