@@ -175,6 +175,10 @@
       "value": 8,
       "type": "spacing"
     },
+    "150": {
+      "value": 3,
+      "type": "spacing"
+    },
     "200": {
       "value": 16,
       "type": "spacing"

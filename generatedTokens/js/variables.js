@@ -41,6 +41,7 @@ export const FontSizeSm = "0.85rem";
 export const FontSizeXs = "0.65rem";
 export const Space0 = "0";
 export const Space100 = "0.5rem";
+export const Space150 = "0.1875rem";
 export const Space200 = "1rem";
 export const Space250 = "1.25rem";
 export const Space400 = "2rem";
