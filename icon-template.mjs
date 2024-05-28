@@ -1,5 +1,7 @@
 const template = (variables, { tpl }) => {
 
+    const  { imports, interfaces, componentName, jsx, exports } = variables;
+
     // Function to find the viewBox attribute in the JSX tree
     const findViewBox = (jsxElement) => {
         if (
@@ -11,10 +13,11 @@ const template = (variables, { tpl }) => {
             );
             return viewBoxAttribute ? viewBoxAttribute.value.value : '0 0 24 24';
         }
+
         return '0 0 24 24';
     };
 
-    const viewBoxValue = findViewBox(variables.jsx);
+    const viewBoxValue = findViewBox(jsx);
 
     // Function to replace the viewBox attribute in the JSX tree with a prop
     const replaceViewBoxWithProp = (jsxElement) => {
@@ -36,6 +39,7 @@ const template = (variables, { tpl }) => {
                             }
                         };
                     }
+
                     return attr;
                 }
             );
@@ -43,22 +47,22 @@ const template = (variables, { tpl }) => {
         return jsxElement;
     };
 
-    const updatedJsx = replaceViewBoxWithProp(variables.jsx);
+    const updatedJsx = replaceViewBoxWithProp(jsx);
 
     return tpl`
-${variables.imports};
+${imports};
 
-${variables.interfaces};
+${interfaces};
 
-const ${variables.componentName} = ({
+const ${componentName} = ({
   viewBox = '${viewBoxValue}',
   ...props
 }) => (
   ${updatedJsx}
 );
 
-${variables.exports};
+${exports};
 `
-}
+};
 
-module.exports = template;
+export default template;
