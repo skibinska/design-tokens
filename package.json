@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "build": "node ./build.mjs",
-    "build:svg": "npx @svgr/cli  --out-dir=generatedIcons icons"
+    "build:svg": "npx @svgr/cli icons"
   },
   "author": "",
   "license": "MIT License",
