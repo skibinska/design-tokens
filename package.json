@@ -5,12 +5,14 @@
   "main": "build.mjs",
   "type": "module",
   "scripts": {
-    "build": "node ./build.mjs"
+    "build": "node ./build.mjs",
+    "build:svg": "npx @svgr/cli icons"
   },
   "author": "",
   "license": "MIT License",
   "devDependencies": {
     "@divriots/style-dictionary-to-figma": "^0.4.0",
+    "@svgr/cli": "^8.1.0",
     "@tokens-studio/sd-transforms": "^0.15.2",
     "style-dictionary": "^4.0.0-prerelease.26"
   }
