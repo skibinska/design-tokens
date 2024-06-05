@@ -1,19 +1,16 @@
 import StyleDictionary from 'style-dictionary';
-import { registerTransforms } from '@tokens-studio/sd-transforms';
+import {registerTransforms} from '@tokens-studio/sd-transforms';
 
-import { transformRem } from "./transforms/transformRem.mjs";
+import {transformRem} from "./transforms/transformRem.mjs";
 
+// will register them on StyleDictionary object
+// that is installed as a dependency of this package.
 registerTransforms(StyleDictionary);
 
-const sd = new StyleDictionary('config.json');
-
-sd.registerFileHeader({
-    name: `customFileHeader`,
-    fileHeader: () => {
-        return [
-            `Wellcome Design System`,
-            `Do not edit directly`
-        ]
+const sd = new StyleDictionary('config.json', {
+    expand: {
+        composition: false,
+        typography: true,
     }
 });
 
@@ -21,11 +18,11 @@ sd.registerTransform({
     name: 'custom/rem',
     type: 'value',
     transitive: true,
-    matcher: token =>
+    filter: token =>
         ['sizing', 'spacing', 'borderRadius', 'fontSizes'].includes(
             token.type,
         ),
-    transformer: token => transformRem(token.value),
+    transform: token => transformRem(token.value),
 });
 
 await sd.buildAllPlatforms();
