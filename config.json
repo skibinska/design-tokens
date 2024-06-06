@@ -6,6 +6,7 @@
     "css": {
       "transformGroup": "tokens-studio",
       "transforms": ["name/kebab", "custom/rem"],
+      "prefix": "wds",
       "buildPath": "generatedTokens/",
       "files": [
         {
@@ -21,6 +22,7 @@
     "js": {
       "transformGroup": "tokens-studio",
       "transforms": ["name/pascal", "custom/rem"],
+      "prefix": "wds",
       "buildPath": "generatedTokens/",
       "files": [
         {
@@ -35,6 +37,7 @@
     },
     "json": {
       "transformGroup": "tokens-studio",
+      "prefix": "wds",
       "buildPath": "generatedTokens/",
       "files": [
         {

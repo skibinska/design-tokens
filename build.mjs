@@ -3,16 +3,9 @@ import {registerTransforms} from '@tokens-studio/sd-transforms';
 
 import {transformRem} from "./transforms/transformRem.mjs";
 
-// will register them on StyleDictionary object
-// that is installed as a dependency of this package.
 registerTransforms(StyleDictionary);
 
-const sd = new StyleDictionary('config.json', {
-    expand: {
-        composition: false,
-        typography: true,
-    }
-});
+const sd = new StyleDictionary('config.json');
 
 sd.registerTransform({
     name: 'custom/rem',
@@ -25,4 +18,4 @@ sd.registerTransform({
     transform: token => transformRem(token.value),
 });
 
-await sd.buildAllPlatforms();
+sd.buildAllPlatforms();
