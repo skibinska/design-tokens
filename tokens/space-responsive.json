@@ -1,8 +1,0 @@
-{
-  "space-responsive" : {
-    "xxs": {
-      "value": "{space.050.value}",
-      "type": "spacing"
-    }
-  }
-}
