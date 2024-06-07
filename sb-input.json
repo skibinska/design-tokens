@@ -1628,6 +1628,10 @@
     "mobile": {
       "value": "320px",
       "type": "sizing"
+    },
+    "test": {
+      "value": "50px",
+      "type": "sizing"
     }
   },
   "uppercase": {
