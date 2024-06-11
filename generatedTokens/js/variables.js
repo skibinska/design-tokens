@@ -267,6 +267,7 @@ export const WdsRadiuComponentInput = "0.125rem";
 export const WdsArtboardDesktop = "90rem";
 export const WdsArtboardTablet = "48rem";
 export const WdsArtboardMobile = "20rem";
+export const WdsArtboardTest1 = "3.125rem";
 export const WdsUppercase = "uppercase";
 export const WdsNone = "none";
 export const WdsTokenSetOrder0 = "Core";

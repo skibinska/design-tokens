@@ -272,6 +272,7 @@ export const WdsRadiuComponentInput : string;
 export const WdsArtboardDesktop : string;
 export const WdsArtboardTablet : string;
 export const WdsArtboardMobile : string;
+export const WdsArtboardTest1 : string;
 export const WdsUppercase : string;
 export const WdsNone : string;
 export const WdsTokenSetOrder0 : string;
