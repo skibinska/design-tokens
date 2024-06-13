@@ -21,12 +21,13 @@ sd.registerTransform({
 sd.registerTransform({
     name: 'custom/font',
     type: 'attribute',
-    transform: prop => ({
-        category: prop.path[0],
-        type: prop.path[1],
-        family: prop.path[2],
-        weight: prop.path[3],
-        style: prop.path[4]
+    filter: token => token.path[0] === 'asset' && token.path[1] === 'font',
+    transform: token => ({
+        category: token.path[0],
+        type: token.path[1],
+        family: token.path[2],
+        weight: token.path[3],
+        style: token.path[4]
     })
 });
 
