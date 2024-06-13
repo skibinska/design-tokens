@@ -1,21 +1,36 @@
 {
   "source": [
-    "sb-input.json"
+    "tokens/*.json"
   ],
   "platforms": {
     "css": {
       "transformGroup": "tokens-studio",
-      "transforms": ["name/kebab", "custom/rem"],
+      "transforms": ["name/kebab", "custom/rem", "custom/font"],
       "prefix": "wds",
       "buildPath": "generatedTokens/",
       "files": [
         {
           "destination": "css/variables.css",
-          "format": "css/variables"
+          "format": "css/variables",
+          "filter": "custom/excludeTokens"
         },
         {
           "destination": "scss/variables.scss",
-          "format": "scss/variables"
+          "format": "scss/variables",
+          "filter": "custom/excludeTokens"
+        },
+        {
+          "destination": "css/fonts.css",
+          "format": "custom/font-face",
+          "filter": {
+            "attributes": {
+              "category": "asset",
+              "type": "font"
+            }
+          },
+          "options": {
+            "fontPathPrefix": "../assets/"
+          }
         }
       ]
     },
@@ -27,11 +42,13 @@
       "files": [
         {
           "destination": "js/variables.js",
-          "format": "javascript/es6"
+          "format": "javascript/es6",
+          "filter": "custom/excludeTokens"
         },
         {
           "destination": "js/tokens.d.ts",
-          "format": "typescript/es6-declarations"
+          "format": "typescript/es6-declarations",
+          "filter": "custom/excludeTokens"
         }
       ]
     },
@@ -42,7 +59,8 @@
       "files": [
         {
           "destination": "tokens.json",
-          "format": "json/nested"
+          "format": "json/nested",
+          "filter": "custom/excludeTokens"
         }
       ]
     }

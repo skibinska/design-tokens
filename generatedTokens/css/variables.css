@@ -270,11 +270,4 @@
   --wds-artboard-mobile: 20rem;
   --wds-uppercase: uppercase;
   --wds-none: none;
-  --wds-token-set-order-0: Core;
-  --wds-token-set-order-1: Semantic;
-  --wds-token-set-order-2: Product/Insights and Data Finder;
-  --wds-token-set-order-3: Product/Funding Search;
-  --wds-token-set-order-4: Screen size/Desktop;
-  --wds-token-set-order-5: Screen size/Tablet;
-  --wds-token-set-order-6: Screen size/Mobile;
 }
