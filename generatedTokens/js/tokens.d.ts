@@ -183,11 +183,6 @@ export const WdsColourButtonSurfaceBlueDefault : string;
 export const WdsColourButtonSurfaceBlueHover : string;
 export const WdsColourButtonSurfaceCyanDefault : string;
 export const WdsColourButtonSurfaceCyanHover : string;
-/** Not part of design system, only used for annotating designs */
-export const WdsColourAnnotationsPurple : string;
-export const WdsColourAnnotationsPurple20 : string;
-/** Not part of design system, only used for annotating page templates for designers */
-export const WdsColourAnnotationsGreen : string;
 export const WdsColourGrey10 : string;
 export const WdsColourGrey20 : string;
 export const WdsColourGrey30 : string;

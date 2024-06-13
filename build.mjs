@@ -14,7 +14,8 @@ const sd = new StyleDictionary('config.json');
 // Define the array of excluded token paths
 const excludedPaths = [
     'tokenSetOrder',
-    'asset'
+    'asset',
+    'annotations'
 ];
 
 sd.registerFilter({
