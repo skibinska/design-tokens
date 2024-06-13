@@ -9,8 +9,6 @@ const sd = new StyleDictionary('config.json');
 
 // Define the array of excluded token paths
 const excludedPaths = [
-    '$metadata',
-    '$themes',
     'tokenSetOrder',
     'asset'
 ];
@@ -87,6 +85,65 @@ sd.registerFormat({
 
         }, []).join('\n');
     }
+});
+
+sd.registerFormat({
+    name: 'custom/css/responsive',
+    format: ({ dictionary }) => {
+        const deviceTokenName = "artboard";
+
+        let output = '';
+
+        // Helper function to create CSS variables from tokens
+        const createVariables = (tokens) => {
+            return tokens.map(token => {
+                const name = token.name.replace(/-mobile|-tablet|-desktop/, '');
+                return `--${name}: ${token.value};\n`;
+            }).join('');
+        };
+
+        const findDevice = (name) => {
+            return dictionary.allTokens.find(token => token.path.includes(deviceTokenName) && token.name.includes(name))
+        }
+
+        // Add mobile first tokens
+        const mobileTokens = dictionary.allTokens.filter(token => token.path.includes('mobile'));
+        if (mobileTokens.length > 0) {
+            output += `:root {\n`;
+            output += createVariables(mobileTokens);
+            output += `}\n\n`;
+        }
+
+        // Find artboard values
+        const tablet = findDevice('tablet');
+        const desktop = findDevice('desktop');
+
+        if (tablet && desktop) {
+            // Add tablet tokens inside media query
+            const tabletTokens = dictionary.allTokens.filter(token => token.path.includes('tablet'));
+
+            output += `@media (min-width: ${tablet.value}) {\n`;
+            output += `  :root {\n`;
+            output += createVariables(tabletTokens);
+            output += `  }\n`;
+            output += `}\n\n`;
+
+            // Add desktop tokens inside media query
+            const desktopTokens = dictionary.allTokens.filter(token => token.path.includes('desktop'));
+
+            output += `@media (min-width: ${desktop.value}) {\n`;
+            output += `  :root {\n`;
+            output += createVariables(desktopTokens);
+            output += `  }\n`;
+            output += `}\n`;
+        } else {
+            throw new Error('Artboard tokens for tablet or desktop not found.');
+        }
+
+        return output;
+
+    }
+
 });
 
 sd.buildAllPlatforms();
