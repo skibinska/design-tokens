@@ -29,7 +29,7 @@ sd.registerTransform({
     type: 'value',
     transitive: true,
     filter: token =>
-        ['sizing', 'spacing', 'borderRadius', 'fontSizes'].includes(
+        ['sizing', 'spacing', 'borderRadius', 'fontSizes', 'lineHeights', 'letterSpacing'].includes(
             token.type,
         ),
     transform: token => transformRem(token.value),
