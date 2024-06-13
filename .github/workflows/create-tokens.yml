@@ -21,7 +21,7 @@ jobs:
 
       # Transform Figma Tokens JSON to something Style Dictionary can read
       - name: Run token-transformer
-        run: npx token-transformer tokens.json sb-input.json
+        run: npm run token-transform
 
       # Convert tokens according to Style Dictionary config
       - name: Run style-dictionary

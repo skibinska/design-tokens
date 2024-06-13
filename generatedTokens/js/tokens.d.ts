@@ -2,6 +2,9 @@
  * Do not edit directly, this file was auto-generated.
  */
 
+export const WdsAssetFontInter400Normal : string;
+export const WdsAssetFontInter500Normal : string;
+export const WdsAssetFontWellcome700Normal : string;
 export const WdsFontHeadingWellcomeH0 : string;
 export const WdsFontHeadingWellcomeH1 : string;
 export const WdsFontHeadingWellcomeH2 : string;
@@ -274,9 +277,6 @@ export const WdsArtboardTablet : string;
 export const WdsArtboardMobile : string;
 export const WdsUppercase : string;
 export const WdsNone : string;
-export const WdsAssetFontInter400Normal : string;
-export const WdsAssetFontInter500Normal : string;
-export const WdsAssetFontWellcome700Normal : string;
 export const WdsTokenSetOrder0 : string;
 export const WdsTokenSetOrder1 : string;
 export const WdsTokenSetOrder2 : string;

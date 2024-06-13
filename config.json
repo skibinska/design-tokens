@@ -1,6 +1,6 @@
 {
   "source": [
-    "sb-input.json"
+    "tokens/*.json"
   ],
   "platforms": {
     "css": {

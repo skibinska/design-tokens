@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "build": "node ./build.mjs",
-    "token-transform": "npx token-transformer tokens.json sb-input.json"
+    "token-transform": "npx token-transformer tokens.json tokens/sb-input.json"
   },
   "author": "",
   "license": "MIT License",

@@ -1638,44 +1638,6 @@
     "value": "none",
     "type": "textCase"
   },
-  "asset": {
-    "font": {
-      "Inter": {
-        "400": {
-          "normal": {
-            "value": "fonts/Inter-Regular",
-            "formats": [
-              "woff2",
-              "woff"
-            ],
-            "type": "asset"
-          }
-        },
-        "500": {
-          "normal": {
-            "value": "fonts/Inter-Medium",
-            "formats": [
-              "woff2",
-              "woff"
-            ],
-            "type": "asset"
-          }
-        }
-      },
-      "Wellcome": {
-        "700": {
-          "normal": {
-            "value": "fonts/wellcome-bold-webfont",
-            "formats": [
-              "woff2",
-              "woff"
-            ],
-            "type": "asset"
-          }
-        }
-      }
-    }
-  },
   "tokenSetOrder": {
     "0": {
       "value": "Core",
