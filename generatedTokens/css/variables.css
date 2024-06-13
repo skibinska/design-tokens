@@ -270,6 +270,9 @@
   --wds-artboard-mobile: 20rem;
   --wds-uppercase: uppercase;
   --wds-none: none;
+  --wds-asset-font-inter-400-normal: fonts/Inter-Regular;
+  --wds-asset-font-inter-500-normal: fonts/Inter-Medium;
+  --wds-asset-font-wellcome-700-normal: fonts/wellcome-bold-webfont;
   --wds-token-set-order-0: Core;
   --wds-token-set-order-1: Semantic;
   --wds-token-set-order-2: Product/Insights and Data Finder;

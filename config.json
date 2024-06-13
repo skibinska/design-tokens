@@ -5,7 +5,7 @@
   "platforms": {
     "css": {
       "transformGroup": "tokens-studio",
-      "transforms": ["name/kebab", "custom/rem"],
+      "transforms": ["name/kebab", "custom/rem", "custom/font"],
       "prefix": "wds",
       "buildPath": "generatedTokens/",
       "files": [
@@ -16,6 +16,19 @@
         {
           "destination": "scss/variables.scss",
           "format": "scss/variables"
+        },
+        {
+          "destination": "css/fonts.css",
+          "format": "custom/font-face",
+          "filter": {
+            "attributes": {
+              "category": "asset",
+              "type": "font"
+            }
+          },
+          "options": {
+            "fontPathPrefix": "../assets/"
+          }
         }
       ]
     },
