@@ -11,11 +11,13 @@
       "files": [
         {
           "destination": "css/variables.css",
-          "format": "css/variables"
+          "format": "css/variables",
+          "filter": "custom/excludeTokens"
         },
         {
           "destination": "scss/variables.scss",
-          "format": "scss/variables"
+          "format": "scss/variables",
+          "filter": "custom/excludeTokens"
         },
         {
           "destination": "css/fonts.css",
@@ -40,11 +42,13 @@
       "files": [
         {
           "destination": "js/variables.js",
-          "format": "javascript/es6"
+          "format": "javascript/es6",
+          "filter": "custom/excludeTokens"
         },
         {
           "destination": "js/tokens.d.ts",
-          "format": "typescript/es6-declarations"
+          "format": "typescript/es6-declarations",
+          "filter": "custom/excludeTokens"
         }
       ]
     },
@@ -55,7 +59,8 @@
       "files": [
         {
           "destination": "tokens.json",
-          "format": "json/nested"
+          "format": "json/nested",
+          "filter": "custom/excludeTokens"
         }
       ]
     }

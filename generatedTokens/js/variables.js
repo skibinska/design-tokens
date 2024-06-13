@@ -2,9 +2,6 @@
  * Do not edit directly, this file was auto-generated.
  */
 
-export const WdsAssetFontInter400Normal = "fonts/Inter-Regular";
-export const WdsAssetFontInter500Normal = "fonts/Inter-Medium";
-export const WdsAssetFontWellcome700Normal = "fonts/wellcome-bold-webfont";
 export const WdsFontHeadingWellcomeH0 = "700 32px/48 Wellcome";
 export const WdsFontHeadingWellcomeH1 = "700 24px/42 Wellcome";
 export const WdsFontHeadingWellcomeH2 = "700 22px/36 Wellcome";
@@ -272,10 +269,3 @@ export const WdsArtboardTablet = "48rem";
 export const WdsArtboardMobile = "20rem";
 export const WdsUppercase = "uppercase";
 export const WdsNone = "none";
-export const WdsTokenSetOrder0 = "Core";
-export const WdsTokenSetOrder1 = "Semantic";
-export const WdsTokenSetOrder2 = "Product/Insights and Data Finder";
-export const WdsTokenSetOrder3 = "Product/Funding Search";
-export const WdsTokenSetOrder4 = "Screen size/Desktop";
-export const WdsTokenSetOrder5 = "Screen size/Tablet";
-export const WdsTokenSetOrder6 = "Screen size/Mobile";

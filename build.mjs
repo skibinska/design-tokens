@@ -7,6 +7,21 @@ registerTransforms(StyleDictionary);
 
 const sd = new StyleDictionary('config.json');
 
+// Define the array of excluded token paths
+const excludedPaths = [
+    '$metadata',
+    '$themes',
+    'tokenSetOrder',
+    'asset'
+];
+
+sd.registerFilter({
+    name: 'custom/excludeTokens',
+    filter: (prop) => {
+        return !prop.path.some(part => excludedPaths.includes(part));
+    }
+});
+
 sd.registerTransform({
     name: 'custom/rem',
     type: 'value',

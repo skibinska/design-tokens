@@ -3,9 +3,6 @@
  */
 
 :root {
-  --wds-asset-font-inter-400-normal: fonts/Inter-Regular;
-  --wds-asset-font-inter-500-normal: fonts/Inter-Medium;
-  --wds-asset-font-wellcome-700-normal: fonts/wellcome-bold-webfont;
   --wds-font-heading-wellcome-h0: 700 32px/48 Wellcome;
   --wds-font-heading-wellcome-h1: 700 24px/42 Wellcome;
   --wds-font-heading-wellcome-h2: 700 22px/36 Wellcome;
@@ -273,11 +270,4 @@
   --wds-artboard-mobile: 20rem;
   --wds-uppercase: uppercase;
   --wds-none: none;
-  --wds-token-set-order-0: Core;
-  --wds-token-set-order-1: Semantic;
-  --wds-token-set-order-2: Product/Insights and Data Finder;
-  --wds-token-set-order-3: Product/Funding Search;
-  --wds-token-set-order-4: Screen size/Desktop;
-  --wds-token-set-order-5: Screen size/Tablet;
-  --wds-token-set-order-6: Screen size/Mobile;
 }
