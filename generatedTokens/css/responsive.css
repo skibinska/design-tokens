@@ -18,7 +18,6 @@
 --wds-space-s: 0.75rem;
 --wds-space-xs: 0.5rem;
 --wds-space-xxs: 0.25rem;
---wds-artboard: 20rem;
 }
 
 @media (min-width: 48rem) {
@@ -42,7 +41,6 @@
 --wds-space-s: 1rem;
 --wds-space-xs: 0.5rem;
 --wds-space-xxs: 0.25rem;
---wds-artboard: 48rem;
   }
 }
 
@@ -67,6 +65,5 @@
 --wds-space-s: 1rem;
 --wds-space-xs: 0.5rem;
 --wds-space-xxs: 0.25rem;
---wds-artboard: 90rem;
   }
 }
