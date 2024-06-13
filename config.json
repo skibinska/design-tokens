@@ -31,6 +31,11 @@
           "options": {
             "fontPathPrefix": "../assets/"
           }
+        },
+        {
+          "destination": "css/responsive.css",
+          "format": "custom/css/responsive",
+          "filter": "custom/excludeTokens"
         }
       ]
     },
