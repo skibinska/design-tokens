@@ -98,6 +98,8 @@
   --wds-font-line-height-48: 3rem;
   --wds-font-line-height-60: 3.75rem;
   --wds-font-line-height-64: 4rem;
+  --wds-font-text-case-uppercase: uppercase;
+  --wds-font-text-case-none: none;
   --wds-space-xxl: 3rem;
   --wds-space-xl: 2rem;
   --wds-space-l: 1.5rem;
@@ -265,6 +267,4 @@
   --wds-artboard-desktop: 90rem;
   --wds-artboard-tablet: 48rem;
   --wds-artboard-mobile: 20rem;
-  --wds-uppercase: uppercase;
-  --wds-none: none;
 }

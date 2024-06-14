@@ -856,6 +856,16 @@
         "value": 64,
         "type": "lineHeights"
       }
+    },
+    "text-case": {
+      "uppercase": {
+        "value": "uppercase",
+        "type": "textCase"
+      },
+      "none": {
+        "value": "none",
+        "type": "textCase"
+      }
     }
   },
   "space": {
@@ -1629,14 +1639,6 @@
       "value": "320px",
       "type": "sizing"
     }
-  },
-  "uppercase": {
-    "value": "uppercase",
-    "type": "textCase"
-  },
-  "none": {
-    "value": "none",
-    "type": "textCase"
   },
   "tokenSetOrder": {
     "0": {
