@@ -140,6 +140,7 @@ export const WdsSpaceScale600 : string;
 export const WdsSpaceScale800 : string;
 export const WdsSpaceScale900 : string;
 export const WdsSpaceScale1200 : string;
+export const WdsSpaceScale10000 : string;
 export const WdsSpaceScale050 : string;
 export const WdsSizeArtboard : string;
 export const WdsColourTextBodyMain : string;
