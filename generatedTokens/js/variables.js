@@ -137,6 +137,7 @@ export const WdsSpaceScale600 = "3rem";
 export const WdsSpaceScale800 = "4rem";
 export const WdsSpaceScale900 = "4.5rem";
 export const WdsSpaceScale1200 = "6rem";
+export const WdsSpaceScale10000 = "0.625rem";
 export const WdsSpaceScale050 = "0.25rem";
 export const WdsSizeArtboard = "20rem";
 export const WdsColourTextBodyMain = "#292929";

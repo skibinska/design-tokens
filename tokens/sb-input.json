@@ -1028,6 +1028,10 @@
         "value": 96,
         "type": "spacing"
       },
+      "10000": {
+        "value": 10,
+        "type": "spacing"
+      },
       "050": {
         "value": 4,
         "type": "spacing"
